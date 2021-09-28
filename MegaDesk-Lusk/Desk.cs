@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace MegaDesk_Lusk
 {
-    class Desk
+    public class Desk
     {
+        public decimal Width { get; set; }
+
+        public decimal Height { get; set; }
+
+        public int NumberOfDrawers { get; set; }
     }
 }

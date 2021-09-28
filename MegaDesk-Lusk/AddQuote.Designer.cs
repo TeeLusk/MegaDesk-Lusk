@@ -104,9 +104,9 @@ namespace MegaDesk_Lusk
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(33, 189);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "width";
+            this.label4.Text = "Wood Type";
             // 
             // label5
             // 
