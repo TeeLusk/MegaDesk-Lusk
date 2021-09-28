@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaDesk-Lusk", "MegaDesk-Lusk\MegaDesk-Lusk.csproj", "{8940A287-384E-4480-B86B-4781B483FFDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8940A287-384E-4480-B86B-4781B483FFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8940A287-384E-4480-B86B-4781B483FFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8940A287-384E-4480-B86B-4781B483FFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8940A287-384E-4480-B86B-4781B483FFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07DB4240-4FCE-4050-92DA-E8D825DE71A5}
+	EndGlobalSection
+EndGlobal
