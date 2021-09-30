@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace MegaDesk_Lusk
 {
+
+    public enum DesktopMaterial
+    {
+        Laminate,
+        Oak,
+        Rosewood,
+        Veneer,
+        Pine
+    }
     public class Desk
     {
         public decimal Width { get; set; }
@@ -13,5 +22,8 @@ namespace MegaDesk_Lusk
         public decimal Height { get; set; }
 
         public int NumberOfDrawers { get; set; }
+
+        public DesktopMaterial SurfaceMaterial { get; set; }
+    
     }
 }

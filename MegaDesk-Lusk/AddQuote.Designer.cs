@@ -113,9 +113,9 @@ namespace MegaDesk_Lusk
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(33, 239);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(32, 13);
+            this.label5.Size = new System.Drawing.Size(75, 13);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Rush";
+            this.label5.Text = "Shipping Type";
             // 
             // comboBox2
             // 
@@ -142,6 +142,7 @@ namespace MegaDesk_Lusk
             this.Controls.Add(this.label1);
             this.Name = "AddQuote";
             this.Text = "AddQuote";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddQuote_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);

@@ -12,9 +12,17 @@ namespace MegaDesk_Lusk
 {
     public partial class AddQuote : Form
     {
-        public AddQuote()
+        private Form _mainMenu;
+        public AddQuote(Form mainMenu)
         {
             InitializeComponent();
+
+            _mainMenu = mainMenu;
+        }
+
+        private void AddQuote_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _mainMenu.Show();
         }
     }
 }

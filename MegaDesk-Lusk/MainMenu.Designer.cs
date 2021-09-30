@@ -46,6 +46,7 @@ namespace MegaDesk_Lusk
             this.btn_AddNewQuote.TabIndex = 0;
             this.btn_AddNewQuote.Text = "Add New Quote";
             this.btn_AddNewQuote.UseVisualStyleBackColor = true;
+            this.btn_AddNewQuote.Click += new System.EventHandler(this.btn_AddNewQuote_Click);
             // 
             // btn_ViewQuotes
             // 
@@ -84,6 +85,7 @@ namespace MegaDesk_Lusk
             this.btn_Exit.TabIndex = 4;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // MainMenu
             // 

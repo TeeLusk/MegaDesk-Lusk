@@ -17,5 +17,17 @@ namespace MegaDesk_Lusk
             InitializeComponent();
         }
 
+        private void btn_AddNewQuote_Click(object sender, EventArgs e)
+        {
+            var addQuoteForm = new AddQuote(this);
+            addQuoteForm.Show();
+
+            this.Hide();
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
