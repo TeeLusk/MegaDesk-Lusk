@@ -12,9 +12,17 @@ namespace MegaDesk_Lusk
 {
     public partial class ViewAllQuotes : Form
     {
-        public ViewAllQuotes()
+        private Form _mainMenu;
+        public ViewAllQuotes(Form mainMenu)
         {
             InitializeComponent();
+
+            _mainMenu = mainMenu;
+        }
+
+        private void ViewAllQuotes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _mainMenu.Show();
         }
     }
 }

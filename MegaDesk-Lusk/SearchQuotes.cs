@@ -12,9 +12,17 @@ namespace MegaDesk_Lusk
 {
     public partial class SearchQuotes : Form
     {
-        public SearchQuotes()
+        private Form _mainMenu;
+        public SearchQuotes(Form mainMenu)
         {
             InitializeComponent();
+
+            _mainMenu = mainMenu;
+        }
+
+        private void SearchQuotes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _mainMenu.Show();
         }
     }
 }
