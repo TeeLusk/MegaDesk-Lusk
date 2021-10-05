@@ -32,6 +32,7 @@ namespace MegaDesk_Lusk
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
+
             if (!(numericUpDown1.Value >= 12 && numericUpDown1.Value <= 48))
             {
                 // Shouldn't ever get to this point where min/max are set in the numericUpDown
